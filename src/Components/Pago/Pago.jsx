@@ -26,11 +26,7 @@ const Pago = () => {
           <NavLink to="/confirmacion">Continuar</NavLink>
         </Button>
       </Col>
-      </Row>
-        <button>
-          
-        </button>
-      
+      </Row>      
     </div>
   );
 };
