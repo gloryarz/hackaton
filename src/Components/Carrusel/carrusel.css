@@ -1,0 +1,14 @@
+.marginBtn{
+    margin-top: 55vh;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.txt{
+    margin-top: 7vh;
+    font-size: 2rem;
+}
+
