@@ -2,6 +2,7 @@
     width: 100%;
     height: 6rem;
     color: white;
+    font-size: 2.5rem;
 }
 
 .color {
@@ -20,4 +21,9 @@ input[type=text] {
     border-bottom: 2px solid blueviolet;
     margin-top: 3vh;
     width: 100%
+}
+
+.cent{
+    display: flex;
+    justify-content: center;
 }

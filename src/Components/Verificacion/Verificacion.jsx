@@ -15,7 +15,7 @@ const Verificacion = () => {
         <p className="matricula">Tu matrícula ha sido verificada</p>
 
         <Button className="btn color marginBtn">
-          <NavLink to="/cuenta">Boton</NavLink>
+          <NavLink to="/cuenta">Continuar</NavLink>
         </Button>
       </Col>
     </Row>

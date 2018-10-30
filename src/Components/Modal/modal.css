@@ -1,0 +1,12 @@
+.box {
+    border: .3rem solid blueviolet;
+    border-radius: 1rem;
+    margin-top: 6vh;
+    height: 80vh;
+    font-size: 2rem;
+    text-align: justify;
+}
+
+.btns {
+    margin-top: 2rem;
+}

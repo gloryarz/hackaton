@@ -6,13 +6,7 @@ import './pago.css'
 
 
 class Pago extends Component {
-  state = {  
-    show: false
-  }
-
-  show = () => {
-    alert('sdfsf');
-  }
+  state = {  }
   render() { 
     return ( <div>
         <Row>
@@ -22,7 +16,9 @@ class Pago extends Component {
         <Col xs={10} xsOffset={1} className="txt">
         <p>Elige tu forma de pago</p>
         <Col xs={6}>
-            <p className="border" onClick={this.show}>Tarjeta</p>
+          <NavLink to="/tarjeta">
+            <p className="border">Tarjeta</p>
+          </NavLink>
         </Col>
         <Col xs={6}>
           <p className="border">PayPal</p>

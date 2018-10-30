@@ -16,7 +16,7 @@ const Matricula = () => {
         <p >Número de matrícula de tu hijo</p>
         <input type="text"/> <br/>
 
-        <Button className="btn color marginBtn">
+        <Button className="btn marginBtn color">
           <NavLink to="/verificacion">Continuar</NavLink>
         </Button>
       </Col>

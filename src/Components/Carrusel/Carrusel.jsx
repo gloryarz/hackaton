@@ -39,7 +39,7 @@ const Carrusel = () => {
           <NavLink to="/matricula">Vamos</NavLink>
         </Button>
         <p>
-        <NavLink to="/login">Ya tengo cuenta</NavLink>
+        <NavLink to="/login" className="cent">Ingresar</NavLink>
         </p>
       </Col>
       </Row>
