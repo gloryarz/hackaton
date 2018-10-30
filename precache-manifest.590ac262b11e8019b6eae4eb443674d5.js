@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "58fa162206efc8bc4981",
-    "url": "/hackaton/static/css/main.1e652a48.chunk.css"
+    "revision": "02ae6752b94f90482ad2",
+    "url": "/hackaton/static/css/main.b77e4f4a.chunk.css"
   },
   {
-    "revision": "58fa162206efc8bc4981",
-    "url": "/hackaton/static/js/main.58fa1622.chunk.js"
+    "revision": "02ae6752b94f90482ad2",
+    "url": "/hackaton/static/js/main.02ae6752.chunk.js"
   },
   {
     "revision": "fa5e0108f8ca575d57b6",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/hackaton/static/js/runtime~main.c60f8461.js"
   },
   {
-    "revision": "1f80079c5f7c38de5054bb870918fa8d",
+    "revision": "96416339bf6f27d7a402a63e714ae3bd",
     "url": "/hackaton/index.html"
   }
 ];
