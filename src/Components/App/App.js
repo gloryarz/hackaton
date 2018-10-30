@@ -1,28 +1,33 @@
 import React, { Component } from 'react';
-import logo from '../../../src/logo.svg';
-import './App.css';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import  Carrusel from '../Carrusel/Carrusel';
+import  Matricula from '../Matricula/Matricula';
+import  Verificacion from '../Verificacion/Verificacion';
+import  Servicio from '../Servicio/Servicio';
+import  Pago from '../Pago/Pago';
+import  Confirmacion from '../Confirmacion/Confirmacion';
+import  Modal from '../Modal/Modal';
+
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
+  state = {  }
+  render() { 
+    return ( 
+      <BrowserRouter>
+        <Switch>
+          <Route path="/" component={Carrusel} exact />
+          <Route path="/matricula" component={Matricula} />   
+          <Route path="/verificacion" component={Verificacion} />  
+          <Route path="/servicio" component={Servicio} /> 
+          <Route path="/pago" component={Pago} />  
+          <Route path="/confirmacion" component={Confirmacion} />   
+          <Route path="/modal" component={Modal} />  
+          <Route component={Error} />      
+        </Switch>
+         
+      </BrowserRouter>
+     );
   }
 }
-
+ 
 export default App;
