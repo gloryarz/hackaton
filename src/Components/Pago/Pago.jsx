@@ -14,17 +14,14 @@ const Pago = () => {
         <Col xs={10} xsOffset={1} className="txt">
         <p>Elige tu forma de pago</p>
         <Col xs={6}>
-          <p className="border">Tarjeta</p>
+          <NavLink to="/tarjeta">
+            <p className="border">Tarjeta</p>
+          </NavLink>
         </Col>
         <Col xs={6}>
           <p className="border">PayPal</p>
         </Col>
-        <p>Ingresa el número de tu tarjeta</p>
-        <input type="text"/> <br/>
 
-        <Button className="btn color marginBtn">
-          <NavLink to="/confirmacion">Continuar</NavLink>
-        </Button>
       </Col>
       </Row>      
     </div>

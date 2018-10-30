@@ -38,6 +38,9 @@ const Carrusel = () => {
         <Button className="btn color marginBtn">
           <NavLink to="/matricula">Vamos</NavLink>
         </Button>
+        <p>
+        <NavLink to="/login">Ya tengo cuenta</NavLink>
+        </p>
       </Col>
       </Row>
       
