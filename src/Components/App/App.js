@@ -11,6 +11,7 @@ import  Login from '../Login/Login';
 import  Inicio from '../Inicio/Inicio';
 import Cuenta from '../Cuenta/Cuenta'
 import Tarjeta from '../Tarjeta/Tarjeta'
+import Error from '../Error/Error'
 
 
 class App extends Component {
@@ -19,17 +20,17 @@ class App extends Component {
     return ( 
       <BrowserRouter>
         <Switch>
-          <Route path="/" component={Carrusel} exact />
-          <Route path="/matricula" component={Matricula} />   
-          <Route path="/verificacion" component={Verificacion} />  
-          <Route path="/servicio" component={Servicio} /> 
-          <Route path="/pago" component={Pago} />  
-          <Route path="/confirmacion" component={Confirmacion} />   
-          <Route path="/modal" component={Modal} />
-          <Route path="/login" component={Login} />  
-          <Route path="/inicio" component={Inicio} />   
-          <Route path="/cuenta" component={Cuenta} />
-          <Route path="/tarjeta" component={Tarjeta} />  
+          <Route path={`${process.env.PUBLIC_URL}/`} component={Carrusel} exact />
+          <Route path={`${process.env.PUBLIC_URL}/matricula`} component={Matricula} />   
+          <Route path={`${process.env.PUBLIC_URL}/verificacion`} component={Verificacion} />  
+          <Route path={`${process.env.PUBLIC_URL}/servicio`} component={Servicio} /> 
+          <Route path={`${process.env.PUBLIC_URL}/pago`} component={Pago} />  
+          <Route path={`${process.env.PUBLIC_URL}/confirmacion`} component={Confirmacion} />   
+          <Route path={`${process.env.PUBLIC_URL}/modal`} component={Modal} />
+          <Route path={`${process.env.PUBLIC_URL}/login`} component={Login} />  
+          <Route path={`${process.env.PUBLIC_URL}/inicio`} component={Inicio} />   
+          <Route path={`${process.env.PUBLIC_URL}/cuenta`} component={Cuenta} />
+          <Route path={`${process.env.PUBLIC_URL}/tarjeta`} component={Tarjeta} />  
           <Route component={Error} />      
         </Switch>
          
