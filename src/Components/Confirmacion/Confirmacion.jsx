@@ -9,7 +9,7 @@ const Confirmacion = () => {
     <div>
       <Row>
         <Col xs={12} className="color">
-          <h4 className="center head">Confirma tu cuenta</h4>
+          <h4 className="center head">Confirmar cuenta</h4>
         </Col>
         <Col xs={10} xsOffset={1} className="txt">
         <p>Nombre</p>
@@ -20,10 +20,8 @@ const Confirmacion = () => {
         <input type="text" className="inp"/> 
         <p>Fecha de inicio del servicio</p>
         <input type="text" className="inp"/> 
-        <p>Fecha de inicio del servicio</p>
-        <input type="text" className="inp"/> 
 
-        <Button className="btn color marginBtn">
+        <Button className="btn color btns">
           <NavLink to="/inicio">Confirmar</NavLink>
         </Button>
       </Col>
