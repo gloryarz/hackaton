@@ -17,7 +17,7 @@ const Matricula = () => {
         <input type="text"/> <br/>
 
         <Button className="btn color marginBtn">
-          <NavLink to="/verificacion">Boton</NavLink>
+          <NavLink to="/verificacion">Continuar</NavLink>
         </Button>
       </Col>
       </Row>
