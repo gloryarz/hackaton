@@ -24,7 +24,7 @@ const Confirmacion = () => {
         <input type="text" className="inp"/> 
 
         <Button className="btn color marginBtn">
-          <NavLink to="/modal">Confirmar</NavLink>
+          <NavLink to="/inicio">Confirmar</NavLink>
         </Button>
       </Col>
     </Row>

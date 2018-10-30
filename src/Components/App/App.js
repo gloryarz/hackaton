@@ -7,6 +7,10 @@ import  Servicio from '../Servicio/Servicio';
 import  Pago from '../Pago/Pago';
 import  Confirmacion from '../Confirmacion/Confirmacion';
 import  Modal from '../Modal/Modal';
+import  Login from '../Login/Login';
+import  Inicio from '../Inicio/Inicio';
+import Cuenta from '../Cuenta/Cuenta'
+import Tarjeta from '../Tarjeta/Tarjeta'
 
 
 class App extends Component {
@@ -21,7 +25,11 @@ class App extends Component {
           <Route path="/servicio" component={Servicio} /> 
           <Route path="/pago" component={Pago} />  
           <Route path="/confirmacion" component={Confirmacion} />   
-          <Route path="/modal" component={Modal} />  
+          <Route path="/modal" component={Modal} />
+          <Route path="/login" component={Login} />  
+          <Route path="/inicio" component={Inicio} />   
+          <Route path="/cuenta" component={Cuenta} />
+          <Route path="/tarjeta" component={Tarjeta} />  
           <Route component={Error} />      
         </Switch>
          

@@ -7,7 +7,7 @@ const Servicio = () => {
       <p>
         Servicio
         <button>
-          <NavLink to="/pago">Boton</NavLink>
+          <NavLink to="/modal">Boton</NavLink>
         </button>
       </p>
     </div>
